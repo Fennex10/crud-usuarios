@@ -54,7 +54,7 @@ namespace Crud
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text))
             {
-                MessageBox.Show("El nombre es requerido");
+                MessageBox.Show("Se requiere el nombre");
                 return false;
             }
 
